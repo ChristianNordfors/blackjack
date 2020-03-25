@@ -1,0 +1,41 @@
+html, body{
+  margin: 0px;
+  color: white;
+  height: 100vh;
+}
+
+#bgImg{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url(../fondo/cartas.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contenedor{
+  background-color: #2F4F30;
+  width: 100%;
+  height: 100vh;
+
+  border: 0px 1px 0px 1px solid black;
+  box-shadow: -5px 0 20px -5px #333, 5px 0 20px -5px #333;
+
+}
+
+.titulo{
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  text-shadow: 2px 2px gray;
+}
+
+.carta{
+  position: relative;
+  width: 150px;
+  left: 100px;
+  margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas{
+  height: 250px;
+}
