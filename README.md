@@ -1,2 +1,2 @@
-# blackjack
-Juego de cartas
+# Blackjack
+Juego de cartas realizado con JavaScript
